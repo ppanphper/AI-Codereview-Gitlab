@@ -9,3 +9,4 @@ services:
       - ./.env:/app/.env
       - ./log:/app/log
     restart: unless-stopped
+    platform: linux/amd64
